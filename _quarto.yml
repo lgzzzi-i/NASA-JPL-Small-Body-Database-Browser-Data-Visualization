@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - nasa-notebook.ipynb
+
+website:
+  title: "NASA JPL Small-Body Database Browser"
+  site-url: "https://lgzzzi-i.github.io/NASA-JPL-Small-Body-Database-Browser-Data-Visualization/"
+  navbar:
+    left:
+      - text: "Notebook"
+        href: nasa-notebook.ipynb
+
+execute:
+  enabled: false

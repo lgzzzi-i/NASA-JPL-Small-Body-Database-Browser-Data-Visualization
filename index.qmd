@@ -1,0 +1,9 @@
+---
+title: "NASA JPL Small-Body Database Browser"
+---
+
+Explore the interactive visualizations of asteroid and comet discoveries in the
+[NASA JPL Small-Body Database notebook](nasa-notebook.ipynb).
+
+The notebook uses its saved outputs when the site is built, so publishing does
+not rerun its live data queries.

@@ -8,3 +8,11 @@ This small data visualization project tackles these questions through a series o
 ## Data Source
 “NASA/JPL Solar System Dynamics. Data retrieved on (2026, November, 6). (Database Query). https://ssd.jpl.nasa.gov"
 
+## Website
+
+The Quarto website is published with GitHub Actions at:
+https://lgzzzi-i.github.io/NASA-JPL-Small-Body-Database-Browser-Data-Visualization/
+
+After enabling Pages in the repository settings, select **GitHub Actions** as
+the Pages build and deployment source. The workflow renders the notebook using
+its saved outputs without rerunning its live NASA API queries.
