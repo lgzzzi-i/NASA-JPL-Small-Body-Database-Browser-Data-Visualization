@@ -1,0 +1,80 @@
+name,description,units,title
+spkid,object primary SPK-ID,,SPK-ID
+full_name,object full name/designation,,object fullname
+pdes,object primary designation,,prim. desig.
+name,object IAU name,,IAU name
+prefix,comet designation prefix,,prefix
+neo,Near-Earth Object (NEO) flag,Y/N,NEO
+pha,Potentially Hazardous Asteroid (PHA) flag,Y/N,PHA
+sats,Number of known satellites,,# sats
+orbit_id,orbit solution ID,,orbit ID
+epoch,epoch of osculation in Julian day form,TDB,epoch
+epoch_mjd,epoch of osculation in modified Julian day form,TDB,epoch
+epoch_cal,epoch of osculation in calendar date/time form,TDB,epoch
+equinox,equinox of reference frame,,equinox
+e,eccentricity,,e
+a,semi-major axis,au,a
+q,perihelion distance,au,q
+i,inclination; angle with respect to x-y ecliptic plane,deg,i
+om,longitude of the ascending node,deg,node
+w,argument of perihelion,deg,peri
+ma,mean anomaly,deg,M
+ad,aphelion distance,au,Q
+n,mean motion,deg/d,n
+tp,time of perihelion passage,TDB,tp
+tp_cal,time of perihelion passage,TDB,tp
+per,sidereal orbital period,d,period
+per_y,sidereal orbital period,years,period
+moid,Earth Minimum Orbit Intersection Distance,au,Earth MOID
+moid_ld,Earth Minimum Orbit Intersection Distance,LD,Earth MOID
+moid_jup,Jupiter Minimum Orbit Intersection Distance,au,Jupiter MOID
+t_jup,Jupiter Tisserand Invariant,,T-Jupiter
+sigma_e,eccentricity (1-sigma uncertainty),,e-sigma
+sigma_a,semi-major axis (1-sigma uncertainty),au,a-sigma
+sigma_q,perihelion distance (1-sigma uncertainty),au,q-sigma
+sigma_i,inclination (1-sigma uncertainty),deg,i-sigma
+sigma_om,long. of the asc. node (1-sigma uncertainty),deg,node-sigma
+sigma_w,argument of perihelion (1-sigma uncertainty),deg,peri-sigma
+sigma_ma,mean anomaly (1-sigma uncertainty),deg,M-sigma
+sigma_ad,aphelion distance (1-sigma uncertainty),au,Q (1-sigma)
+sigma_n,mean motion (1-sigma uncertainty),deg/d,n (1-sigma)
+sigma_tp,time of peri. passage (1-sigma uncertainty),d,tp-sigma
+sigma_per,sidereal orbital period (1-sigma uncertainty),d,period-sigma
+class,orbit classification,,orbit class
+producer,name of person (or institution) who computed the orbit,,producer
+data_arc,number of days spanned by the data-arc,d,data-arc span
+first_obs,date of first observation used in the orbit fit,UT,date of first obs.
+last_obs,date of last observation used in the orbit fit,UT,date of last obs.
+n_obs_used,number of observations (all types) used in fit,,# obs. used (total)
+n_del_obs_used,number of delay-radar observations used in fit,,# obs. used (del.)
+n_dop_obs_used,number of Doppler-radar observations used in fit,,# obs. used (dop.)
+condition_code,orbit condition code (MPC 'U' parameter),,condition code
+rms,normalized RMS of orbit fit,arcsec,norm. RMS of fit
+two_body,2-body dynamics used flag,T/F,two-body model
+A1,non-grav. radial parameter,,A1
+A1_sigma,non-grav. radial parameter (1-sigma uncertainty),,A1-sigma
+A2,non-grav. transverse parameter,,A2
+A2_sigma,non-grav. transverse parameter (1-sigma uncertainty),,A2-sigma
+A3,non-grav. normal parameter,,A3
+A3_sigma,non-grav. normal parameter (1-sigma uncertainty),,A3-sigma
+DT,non-grav. peri.-maximum offset,d,DT
+DT_sigma,non-grav. peri.-maximum offset (1-sigma uncertainty),d,DT-sigma
+H,absolute magnitude parameter,,H
+G,magnitude slope parameter (default is 0.15),,G
+M1,comet total magnitude parameter,,M1
+M2,comet nuclear magnitude parameter,,M2
+K1,comet total magnitude slope parameter,,K1
+K2,comet nuclear magnitude slope parameter,,K2
+PC,comet nuclear magnitude law - phase coefficient,,PC
+diameter,object diameter (from equivalent sphere),km,diameter
+extent,object bi/tri-axial ellipsoid dimensions,km,extent
+albedo,geometric albedo,,albedo
+rot_per,rotation period,h,rot_per
+GM,standard gravitational parameter: product of the mass (M) and gravitational constant (G),km^3/s^2,GM
+BV,color index B-V magnitude difference,,B-V
+UB,color index U-B magnitude difference,,U-B
+IR,color index I-R magnitude difference,,I-R
+spec_B,spectral taxonomic type,SMASSII,spec. type
+spec_T,spectral taxonomic type,Tholen,spec. type
+H_sigma,1-sigma uncertainty in absolute magnitude H,,H-sigma
+diameter_sigma,1-sigma uncertainty in object diameter,km,diameter-sigma
